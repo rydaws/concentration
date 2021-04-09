@@ -152,11 +152,12 @@ void initializeGame()
         strcpy(cards[i].animal, strings[i - 1]);
         cards[i].chosen = 0;
     }
-    //USED FOR DISPLAYING CARDS
+    /*USED FOR DISPLAYING CARDS
     for (int k = 1; k < 21; k++)
     {
         printf("NUMBER: %d\nANIMAL: %s\n", cards[k].number, cards[k].animal);
     }
+    */
 }
 
 //Breaks down the game and frees memory
